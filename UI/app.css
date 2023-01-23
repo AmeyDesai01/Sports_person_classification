@@ -1,0 +1,83 @@
+.card-wrapper {
+  margin: 5% 0;
+}
+
+.col {
+  background: linear-gradient(
+    90deg,
+    rgb(202, 240, 254),
+    rgb(0, 86, 214)
+  ) !important;
+}
+
+.upper-row {
+  margin-right: 4px;
+  margin-left: 2px;
+}
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+  top: 10px;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td,
+#classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+/* #gradient {
+  /* background-color: #c6aec7; */
+/* background-image: linear-gradient(60, c#02aab0, #00cdac) !important;
+  z-index: -1;
+}  */
+
+.navbar {
+  background-color: #3f000f;
+}
+
+.navbar-brand {
+  color: #9dfffe;
+  display: flex;
+  justify-content: left;
+}
